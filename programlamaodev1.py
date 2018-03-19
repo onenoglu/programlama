@@ -19,3 +19,6 @@ def musteriCalismaSuresi2017():
 def yillarArasiFark(musCalSur2016,musCalSur2017):
     yillarArasiFark=musCalSur2017-musCalSur2016
     print('Yıllar arasındaki müşteri çalışma süresi farkı:',yillarArasiFark)
+calismaSure2016=musteriCalismaSuresi2016()
+calismaSure2017=musteriCalismaSuresi2017()
+yıllarArasiFark(calismaSure2016,calismaSure2017)
